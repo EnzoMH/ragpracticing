@@ -1,0 +1,41 @@
+RAG_GIW_0704_02/
+├── app/
+│   ├── init.py
+│   ├── main.py
+│   ├── config.py
+│   ├── utils/
+│   │   ├── init.py
+│   │   ├── file_handlers.py
+│   │   └── text_processors.py
+│   ├── models/
+│   │   ├── init.py
+│   │   ├── llm.py
+│   │   ├── vectorstore.py
+│   │   └── bert/
+│   │       ├── init.py
+│   │       ├── data/
+│   │       │   └── pdf_files/
+│   │       ├── models/
+│   │       │   └── best_model.h5
+│   │       ├── notebooks/
+│   │       │   └── training.ipynb
+│   │       └── src/
+│   │           ├── data_preprocessing.py
+│   │           ├── dataset_splitter.py
+│   │           ├── model.py
+│   │           └── train.py
+│   └── components/
+│       ├── init.py
+│       ├── pdf_uploader.py
+│       └── chat_interface.py
+├── static/
+│   └── css/
+│       └── style.css
+├── templates/
+│   └── index.html
+├── tests/
+│   └── test_app.py
+├── requirements.txt
+└── README.md
+
+여기서 app/ 이 상위 디렉토리로 표시되어 있다. 하지만 내 실제 디렉토리 내에서는 

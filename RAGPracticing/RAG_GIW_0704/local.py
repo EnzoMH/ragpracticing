@@ -31,7 +31,7 @@ tokenizer = AutoTokenizer.from_pretrained(model_name)
 model = AutoModelForCausalLM.from_pretrained(model_name)
 
 # Set your Hugging Face API token here
-HUGGINGFACEHUB_API_TOKEN = "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"
+HUGGINGFACEHUB_API_TOKEN = ""
 
 if not os.path.exists('pdfFiles'):
     os.makedirs('pdfFiles')

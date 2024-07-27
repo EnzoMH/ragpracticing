@@ -5,7 +5,7 @@ def chat(messages):
     
     # print(messages)
     r = requests.post(
-        "http://localhost:11434/api/chat",
+        "",
         json={"model": "llama3:latest", "messages": messages, "stream": True},
     )
     r.raise_for_status()

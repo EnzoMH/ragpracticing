@@ -2,7 +2,7 @@ from openai import OpenAI
 
 client = OpenAI(  
     base_url="http://sionic.chat:8001/v1",     
-    api_key="934c4bbc-c384-4bea-af82-1450d7f8128d"
+    api_key=""
 )
 
 response = client.chat.completions.create(     

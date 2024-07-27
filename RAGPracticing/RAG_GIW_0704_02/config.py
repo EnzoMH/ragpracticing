@@ -1,6 +1,6 @@
 import os
 
-HUGGINGFACEHUB_API_TOKEN = os.getenv("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", "your_default_token_here")
+HUGGINGFACEHUB_API_TOKEN = os.getenv("", "your_default_token_here")
 
 PDF_DIRECTORY = 'pdfFiles'
 VECTOR_DB_DIRECTORY = 'vectorDB'

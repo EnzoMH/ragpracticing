@@ -24,7 +24,7 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.chains import RetrievalQA
 
 # Set your Hugging Face API token here
-HUGGINGFACEHUB_API_TOKEN = "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"
+HUGGINGFACEHUB_API_TOKEN = ""
 
 # Set your model endpoint here
 MODEL_ENDPOINT = "https://api-inference.huggingface.co/models/your-username/your-model"
